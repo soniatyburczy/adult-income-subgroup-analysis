@@ -1,4 +1,4 @@
-# Beyond Accuracy: Income Classification and Subgroup Recall
+# Looking Beyond Accuracy: Subgroup Recall in Adult Income Classification
 
 **Logistic regression vs. a small neural network on the UCI Adult dataset**
 
