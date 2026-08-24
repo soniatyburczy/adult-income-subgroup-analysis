@@ -224,7 +224,7 @@ Among positive cases, the neural network is substantially more often the model t
 
 ---
 
-## What I Take From This
+## Key Takeaways
 
 The project ended up being a useful example of why model evaluation is not one number.
 
@@ -252,16 +252,11 @@ That is also why the subgroup analysis here is descriptive rather than a blanket
 
 ## Reproducibility
 
-The notebook uses a fixed random seed (`316`) and keeps all fitted preprocessing inside training-only pipelines.
+The notebook uses a fixed random seed (316) and fits all preprocessing using training data only.
 
-The public UCI Adult file is downloaded automatically if the original course CSV is not available, with schema mappings applied so the analysis can run against either version.
+The public UCI Adult dataset is downloaded automatically if the original course CSV is not available, with schema mappings applied so the analysis can run against either version.
 
-Main libraries:
+To reproduce the environment:
+`pip install -r requirements.txt`
 
-- pandas / NumPy
-- scikit-learn
-- TensorFlow / Keras
-- SciPy
-- Matplotlib / Seaborn
-
-The full analysis, including exploratory plots, preprocessing, model fitting, subgroup tables, weighted sensitivity checks, and paired tests, is in [`main.ipynb`](main.ipynb).
+Then run `main.ipynb`, which contains the complete analysis from exploratory analysis and preprocessing through model fitting, subgroup evaluation, weighted sensitivity checks, and paired tests.
