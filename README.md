@@ -20,7 +20,7 @@ The goal here is therefore less "which model wins?" and more: **what disappears 
 - [Subgroup Results](#subgroup-results)
 - [Weighted Sensitivity Check](#weighted-sensitivity-check)
 - [Paired Model Comparison](#paired-model-comparison)
-- [What I Take From This](#what-i-take-from-this)
+- [Key Takeaways](#key-takeaways)
 - [Limitations](#limitations)
 - [Reproducibility](#reproducibility)
 
